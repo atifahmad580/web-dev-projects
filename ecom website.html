@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Style Wear - Online Clothing Store</title>
+  <link rel="stylesheet" href="first.css" />
+</head>
+<body>
+  <header>
+    <h1>StyleWear</h1>
+    <div class="container">
+      <nav>  
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#cart">🛒</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Welcome to Style Wear</h2>
+    <p>Trendy fashion for all seasons</p>
+    <button onclick="scrollToShop()">Shop Now</button>
+  </section>
+
+  <section id="shop" class="product-section">
+    <h2>Our Collection</h2>
+    <div class="products" id="product-list">
+      <!-- Products will be added by JS -->
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Style Wear brings you the latest in fashion with quality fabrics, stylish designs, and affordable prices. We deliver across India.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 StyleWear. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="first.js"></script>
+</body>
+</html>
