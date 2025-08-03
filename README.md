@@ -42,3 +42,25 @@ Clean and organized layout using CSS Flexbox & Grid
 HTML5 for structure
 
 CSS3 for styling and responsiveness
+
+🛍️ E-commerce Website
+
+This is a front-end E-commerce Website built using HTML and CSS, designed to showcase products in a stylish and responsive layout. It features a modern UI for online shopping experiences and serves as a great starting point for a full-stack e-commerce project.
+
+✨ Features
+
+Beautiful homepage with promotional banner
+
+Product listings with images, names, and prices
+
+Responsive grid layout for all devices
+
+Navigation bar and footer for easy browsing
+
+Smooth hover effects and basic styling
+
+🛠️ Technologies Used
+
+HTML5 for web structure
+
+CSS3 for styling and responsive design (Flexbox, Grid)
